@@ -5,10 +5,14 @@ The System module allows you to create a variety of computer systems.
 ## Getting started
 
 ### Importing the module
-`from SystemModule import System`
+```python
+from SystemModule import System
+```
 
 ### Creating a system
-`var = System(name, oem, formfactor, architecture, os, keyboard, mouse)`
+```python
+var = System(name, oem, formfactor, architecture, os, keyboard, mouse)
+```
 
 `name` - A string variable. Defines the system's name.
 
