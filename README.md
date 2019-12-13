@@ -20,7 +20,7 @@ var = System(name, oem, formfactor, architecture, os, keyboard, mouse)
 
 `formfactor` - A string variable. Defines the system's form factor (desktop, laptop, mobile)
 
-`architecture` - A string variable. Defines the CPU architecture (ARM, i36, amd64, etc)
+`architecture` - A string variable. Defines the CPU architecture (ARM, i386, amd64, etc)
 
 `os` - A string variable. Defines the operating system name. (e.g. Windows 10 1903, Ubuntu 16.04 'Xenial Xerus')
 
@@ -28,6 +28,10 @@ var = System(name, oem, formfactor, architecture, os, keyboard, mouse)
 
 `mouse` - A boolean variable. Defines whether or not the system features a mouse.
 
+##### Example
+```python
+var = System("PC Name", "PC", "laptop", "amd64", "Windows 7", True, False)
+```
 
 ## Functions
 
