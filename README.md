@@ -1,6 +1,6 @@
-# Python System module
+# `System` module (Python)
 
-The System module allows you to create a variety of computer systems.
+The `System` module allows you to create a variety of computer systems.
 
 ## Getting started
 
