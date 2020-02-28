@@ -9,7 +9,7 @@ To create a system:
 name - A string variable. Defines the system's name.
 oem - A string variable. Defines the OEM manufacturer's name for the system.
 formfactor - A string variable. Defines the system's form factor (desktop, laptop, mobile)
-architecture - A string variable. Defines the CPU architecture (ARM, i36, amd64, etc)
+architecture - A string variable. Defines the CPU architecture (ARM, i386, amd64, etc)
 os - A string variable. Defines the operating system name. (e.g. Windows 10 1903, Ubuntu 16.04 'Xenial Xerus')
 keyboard - A boolean variable. Defines whether or not the system features a keyboard.
 mouse - A boolean variable. Defines whether or not the system features a mouse.
@@ -29,7 +29,7 @@ mouse - A boolean variable. Defines whether or not the system features a mouse.
         """Prints out the object variables in a stylised format.
         Example: PC Name's OEM name is PC, using the amd64 architecture and running Windows 7.
         Calls the 'name', 'oem', 'architecture' and 'os' variables."""
-        print(self.name + "'s OEM name is " + self.oem + ", using the " + self.architecture + " architecture and running " + self.os + ".")
+        print(f"{self.name}'s OEM name is {self.oem}, using the {self.architecture} architecture and running {self.os}.")
 
         """If the system has a keyboard, print the correct message. Ditto for mouse.
         Calls the 'keyboard' and 'mouse' variables."""
@@ -45,4 +45,4 @@ mouse - A boolean variable. Defines whether or not the system features a mouse.
             
         """Prints out what form factor the system is in.
         Calls the 'formfactor' variable."""
-        print("This system is in a " + self.formfactor + " form factor.\n")
+        print("This system is in a {self.formfactor} form factor.\n")
