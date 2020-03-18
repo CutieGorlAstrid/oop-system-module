@@ -45,4 +45,4 @@ mouse - A boolean variable. Defines whether or not the system features a mouse.
             
         """Prints out what form factor the system is in.
         Calls the 'formfactor' variable."""
-        print("This system is in a {self.formfactor} form factor.\n")
+        print(f"This system is in a {self.formfactor} form factor.\n")
