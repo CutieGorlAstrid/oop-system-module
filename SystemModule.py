@@ -46,3 +46,14 @@ mouse - A boolean variable. Defines whether or not the system features a mouse.
         """Prints out what form factor the system is in.
         Calls the 'formfactor' variable."""
         print(f"This system is in a {self.formfactor} form factor.\n")
+
+    def GetDescription(self):
+        """Verbose version of GetInfo. Calls the same variables."""
+        print(f"Begin description for {self.name}.")
+        print(f"{self.name}.oem = \"{self.oem}\"")
+        print(f"{self.name}.formfactor = \"{self.formfactor}\"")
+        print(f"{self.name}.architecture = \"{self.architecture}\"")
+        print(f"{self.name}.os = \"{self.os}\"")
+        print(f"{self.name}.keyboard = {self.keyboard}")
+        print(f"{self.name}.mouse = {self.mouse}")
+        print(f"End description for {self.name}.\n")

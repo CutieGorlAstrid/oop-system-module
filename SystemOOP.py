@@ -22,5 +22,12 @@ OldDOSpc.GetInfo()
 iPhone7.GetInfo()
 XPsystem.GetInfo()
 
+# Same as above, but instead call GetDescription().
+RaspberryPi.GetDescription()
+UbuntuSystem.GetDescription()
+OldDOSpc.GetDescription()
+iPhone7.GetDescription()
+XPsystem.GetDescription()
+
 # Use a function calling System's variables for specific objects without GetInfo().
 print(f"The {RaspberryPi.oem} is a {RaspberryPi.formfactor} system, while the {XPsystem.oem} is a {XPsystem.formfactor} system.")
