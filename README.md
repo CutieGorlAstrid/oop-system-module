@@ -43,3 +43,20 @@ Prints out the objects variables in a stylised format.
 ```
 PC Name's OEM name is PC, using the amd64 architecture and running Windows 7. A keyboard is connected, and a mouse is not connected. This system is in a laptop form factor.
 ```
+
+### `GetDescription()`
+
+Logs the properties of the specified system object. Verbose version of `GetInfo()`.
+
+##### Example
+```
+Begin description for PC Name.
+PC Name.oem = "PC"
+PC Name.formfactor = "laptop"
+PC Name.architecture = "amd64"
+PC Name.os = "Windows 7"
+PC Name.keyboard = True
+PC Name.mouse = False
+End description for PC Name.
+```
+
